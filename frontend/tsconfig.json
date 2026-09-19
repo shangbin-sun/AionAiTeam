@@ -1,0 +1,12 @@
+{
+  "extends": "../../../tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "baseUrl": ".",
+    "paths": {
+      "@ai-team": ["src/index.tsx"],
+      "@ai-team/*": ["src/*"]
+    }
+  },
+  "include": ["src/**/*"]
+}
